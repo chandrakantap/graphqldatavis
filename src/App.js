@@ -6,6 +6,7 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import Header from "./components/Header";
 import Wrapper from "./components/Wrapper";
 import EOGVisualization from "./components/EOGVisualization";
+import { teal as primary, blueGrey } from "@material-ui/core/colors"
 
 const store = createStore();
 const theme = createMuiTheme({
@@ -13,14 +14,9 @@ const theme = createMuiTheme({
     useNextVariants: true
   },
   palette: {
-    primary: {
-      main: "rgb(39,49,66)"
-    },
-    secondary: {
-      main: "rgb(197,208,222)"
-    },
+    primary,
     background: {
-      main: "rgb(226,231,238)"
+      main: blueGrey[100]
     }
   }
 });

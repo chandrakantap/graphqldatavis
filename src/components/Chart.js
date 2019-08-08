@@ -63,7 +63,7 @@ export default () => {
             domain={["dataMin", calDataMax(dataCount)]}
             tick={<CustomizedLabel />}
           />
-          <YAxis domain={["dataMin - 200", "dataMax+200"]} />
+          <YAxis />
           {visibility.tubingPressure && (
             <Line
               type="monotone"
