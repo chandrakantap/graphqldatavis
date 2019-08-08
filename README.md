@@ -1,2 +1,0 @@
-# graphqldatavis
-Created with CodeSandbox
