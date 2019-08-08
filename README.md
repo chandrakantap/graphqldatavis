@@ -6,4 +6,4 @@ Different metrics data is fetched from react.eogresources.com/graphql via an web
 
 urql library is used to create websocket client and register for a subscription.
 
-Received data is being stored in redux and displayed on graph usingg recharts.
+Received data is being stored in redux and displayed on graph using recharts.
